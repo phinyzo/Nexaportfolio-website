@@ -5,66 +5,64 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+    title: "Cybersecurity Fundamentals",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "#",
   },
   {
-    title: "Cryptography",
+    title: "Ethical Hacking",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "#",
   },
   {
-    title: "Machine Learning",
+    title: "Cloud Computing",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    moocLink: "#",
   },
   {
-    title: "Introduction to HTML 5",
+    title: "Full Stack Web Development",
     cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    moocLink: "#",
   },
   {
-    title: "Introduction to CSS 3",
+    title: "Mobile App Development",
     cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    moocLink: "#",
   },
   {
-    title: "Javascript",
+    title: "JavaScript & Node.js",
     cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    moocLink: "#",
   },
   {
-    title: "Bootstrap 4",
+    title: "Network Security",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    moocLink: "#",
   },
   {
-    title: "Intro to React",
+    title: "React & React Native",
     cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    moocLink: "#",
   },
   {
-    title: "Intro to React Native",
+    title: "DevOps & CI/CD",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+    moocLink: "#",
   },
   {
-    title: "NodeJS, Express and MongoDB",
+    title: "Database Management",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    moocLink: "#",
   },
   {
-    title: "XML-AJAX",
+    title: "IT Project Management",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+    moocLink: "#",
   },
   {
     title: "Data Structures & Algorithms",
     cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+    moocLink: "#",
   },
 ];
 
@@ -138,19 +136,19 @@ document.addEventListener("DOMContentLoaded", showCards);
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
-    title: "Google Developer Essentials",
-    image: "assets/images/education-page/badge1.png",
-    description: "Earned May 20, 2020",
+    title: "CCNP Security",
+    image: "assets/images/nexalogo.jpg",
+    description: "Cisco Certified Network Professional",
   },
   {
-    title: "VM Migration",
-    image: "assets/images/education-page/badge2.png",
-    description: "Earned June 20, 2020",
+    title: "CyberOps Associate",
+    image: "assets/images/nexaoffer.jpg",
+    description: "Cisco Certified CyberOps Associate",
   },
   {
-    title: "G Suite Essentials",
-    image: "assets/images/education-page/badge3.png",
-    description: "Earned July 20, 2020",
+    title: "CCNA",
+    image: "assets/images/nexalogo.jpg",
+    description: "Cisco Certified Network Associate",
   },
 ];
 
